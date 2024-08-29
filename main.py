@@ -17,5 +17,5 @@ def generate(input: TextInput):
 # Nota de bienvenida
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenido, [Nombre del Participante]!"}
+    return {"message": "Welcome, Sandra!"}
 
